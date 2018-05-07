@@ -1,0 +1,39 @@
+/* 
+* @Author: Marte
+* @Date:   2018-05-01 16:49:05
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-02 11:08:56
+*/
+
+tbody td img{   
+    display: block;
+    width: 50px;height: 50px;
+}
+tbody td button{
+    color:#fff;
+    background-color:#F9E15B;
+    padding:5px;
+    outline: none;
+    border:0 none;
+    border-radius:2px;
+}
+#page a.active {
+    background: #F9E15B;
+    color: #fff;
+}
+#page a:hover {
+    background: #F9E15B;
+    color: #fff;
+}
+#page a {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #F9E15B;
+    margin: 0 2px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+#page{
+    display:table;
+    margin: 20px auto;
+}

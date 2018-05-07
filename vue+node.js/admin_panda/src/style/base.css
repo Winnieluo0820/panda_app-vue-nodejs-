@@ -1,0 +1,30 @@
+/* 
+* @Author: Marte
+* @Date:   2018-05-01 12:27:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-01 16:48:06
+*/
+body,h1,h2,h3,h4,p,a,input,img,ul,li,ol,dl,dt,dd{
+    padding:0;
+    margin:0;}
+ul,ol{
+    list-style:none;}
+img{
+    display:block;
+    border:0;}
+input{
+    /*去掉高亮*/
+    outline:none;}
+header,footer,section,main,nav{
+    display:block;}
+body{
+    font-size:14px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    color:#3e3e3e;}
+a{
+    text-decoration:none;
+    color:#3e3e3e;
+}
+a:hover{
+    text-decoration:underline;}
+i{font-style:normal;}
