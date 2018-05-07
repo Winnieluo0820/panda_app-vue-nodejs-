@@ -1,0 +1,72 @@
+#panda_species {
+    // background-color: lemonchiffon;
+    .species_top {
+        position: relative;
+        height: 2rem;
+        width: 100%;
+        background-color: #FDE25C;
+        .input_box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%)translateY(-50%);
+            width: 80%;
+            height: 0.8rem;
+            background-color: white;
+            border: none;
+            border-radius: 0.2rem;
+            .zoom {
+                position: absolute;
+                display: block;
+                width: 0.8rem;
+                height: 0.8rem;
+                background: url("../../../assets/zoom.jpg") no-repeat;
+                left: 0.066667rem;
+                top: 0.133333rem;
+            }
+            input {
+                position:absolute;
+                height: 0.8rem;
+                left: 10%;
+                border: none;
+                width: 78%;
+                font-size:0.466667rem;
+            }
+        }
+    }
+    .species_left {
+        float: left;
+        top: 2.0rem;
+        box-sizing: border-box;
+        width: 30%;
+        height: 14.333333rem;
+        border-right: 1px solid #D6D6D6;
+        ul {
+            height: 13.586667rem;
+            overflow-y: auto;
+            overflow-x:hidden;
+            span {
+                display: inline-block;
+                height: 2.0rem;
+                width: 3.28rem;
+                box-sizing: border-box;
+                color: #86827F;
+                text-align: center;
+                font-size:0.346667rem;
+                line-height: 2.0rem;
+            }
+            span:hover {
+                border-left: 0.133333rem solid #FCCE21;
+                color: #E4D82C;
+                text-decoration: none;
+            }
+        }
+    }
+    .species_right {
+        float: right;
+        margin-top:1.0rem;
+        width: 70%;
+        height: 13.4rem;
+        //     background-color: cornflowerblue;
+    }
+}

@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    height: 100%;
+    .meun{
+        display: flex;
+        flex-direction:column;
+        width: 200px;
+        background: #00203f;
+        color:#fff;
+        height: 100%;
+         .logo{
+            height: 50px;
+            padding: 14px;
+            img{
+                display: inline-block;
+                margin-right: 20px;
+                width: 30px;
+                height: 30px;
+            }
+         }
+         ul{
+            background: #011627;
+            padding: 10px;
+            flex:1;
+            li{
+                cursor:pointer;
+                border-bottom: 1px solid #ccc;
+                line-height: 40px;
+            }
+         }
+    }
+    .main{
+        flex:1;
+    }
+}

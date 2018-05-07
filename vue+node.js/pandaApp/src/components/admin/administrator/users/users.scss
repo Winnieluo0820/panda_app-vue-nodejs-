@@ -1,0 +1,12 @@
+.users_box{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    .table_box{
+        flex:1;
+    }
+    .action{
+        height: 50px;
+        background: #000;
+    }
+}

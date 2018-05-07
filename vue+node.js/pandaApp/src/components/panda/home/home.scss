@@ -1,0 +1,168 @@
+#panda_home{
+    overflow:hidden;
+    height: 100%;
+    background: #f5f5f5;
+    display:flex;
+    flex-direction:column;
+    .home_header{
+        height: 2.373333rem;
+        background-color:#F8E273;
+        .top{
+            height: 1.146667rem;
+            .sex{
+                float:left;
+                width: 1.546667rem;
+                height: 0.826667rem;
+                margin: 0.173333rem 0.333333rem;
+                border-radius:0.4rem 0.4rem;
+                background-color:#FFF9E1;
+                span{
+                    float:left;
+                    width: 0.666667rem;
+                    height: 0.666667rem;
+                    border-radius:50%;
+                    text-align:center;
+                    line-height:0.666667rem;
+                    margin:0.053333rem;
+                }
+                .active{
+                    background-color:#ADD5F8;
+                }
+            }
+            .home_search{
+                overflow:hidden;
+                position:relative;
+                .search{
+                    float:right;
+                    width: 7.28rem;
+                    height: 0.8rem;
+                    border:0 none;
+                    border-radius:0.266667rem 0.266667rem;
+                    margin:0.186667rem 0.266667rem 0 0;
+                    font-size:0.4rem;
+                    line-height:0.986667rem;
+                    padding-left:0.8rem;
+                    color:#A3A2A7;
+                    font-size:0.32rem;
+
+                }
+                .zoom{
+
+                    position:absolute;
+                    display:block;
+                    width: 0.533333rem;
+                    height: 0.533333rem;
+                    background:url("../../../assets/zoom.jpg") no-repeat;
+                    background-size:cover;
+                    left: 0.4rem;
+                    top:0.333333rem;
+                }
+            }
+        }
+        .bottom{
+            height: 1.2rem;
+            clear:left;
+            position:relative;
+            .menu{
+                position:absolute;
+                background:#fff;
+                top:0.0rem;left:0.0rem;
+                width: 100%;
+                z-index:1000;
+                border-bottom:0.013333rem solid #ccc;
+                p{
+                    background:#F8E273;
+                    text-align:center;
+                    line-height:1.066667rem;
+                    font-size:0.4rem;
+                    position:relative;
+                    .del{
+                        position:absolute;
+                        display:block;
+                        right:0.533333rem;
+                        top:0.266667rem;
+                    }
+                }
+                .list1{
+                    overflow:hidden;
+                    a{
+                        text-align:center;
+                        float:left;
+                        width: 2.4rem;
+                        height: 2.0rem;
+                        margin-bottom:0.133333rem;
+                        img{
+                            margin:0 auto;
+                            width: 1.28rem;height: 1.28rem;
+                        }
+                        span{
+                            line-height:0.266667rem;
+                            height:0.266667rem;
+                        }
+                    }
+                }
+            }
+            .b_left{
+                clear:left;
+                float:left;
+                width: 2.08rem;
+                text-align:center;
+                position:relative;
+                .line{
+                    position:absolute;
+                    right:0.0rem;
+                    top:0.333333rem;
+                    color:#000;
+                }
+            }
+            .b_center{
+                float:left;
+                width: 6.8rem;
+                height: 1.2rem;
+                position:relative;
+                overflow:hidden;
+                .list{
+                    height: 1.2rem;
+                    position:absolute;
+                    left:0.0rem;
+                    li{
+                        float:left;
+                        width:1.6rem;
+                        text-align:center;
+                    }
+                }
+            }
+            .b_right{
+                float:right;
+                width: 1.066667rem;
+                height: 1.2rem;
+                position:relative;
+                .menuicon{
+                    display:block;
+                    width: 0.56rem;
+                    height: 0.56rem;
+                    position:absolute;
+                    left:0.266667rem;top:0.333333rem;
+                    background:url("../../../assets/menu.jpg") no-repeat;
+                }
+            }
+            span{
+                display:inline-block;
+                height: 1.2rem;
+                line-height:1.2rem;
+                color:#634811;
+                cursor:pointer;
+            }
+            .active{
+                color:#402200;
+                font-weight:bold;
+                border-bottom :0.066667rem solid #000;
+            }
+
+        }
+    }
+    .home_main{
+        flex:1;
+        overflow-x:hidden;
+    }
+}

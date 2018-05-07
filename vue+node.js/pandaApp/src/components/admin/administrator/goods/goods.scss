@@ -1,0 +1,17 @@
+.goods_box{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    .table_box{
+        flex:1;
+        table{
+            tbody{
+                overflow:scroll;
+            }
+        }
+    }
+    .action{
+        height: 50px;
+        background: #000;
+    }
+}

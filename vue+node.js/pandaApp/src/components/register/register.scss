@@ -1,0 +1,102 @@
+.register{
+    flex-direction:column;
+  padding:0.4rem;
+    display:flex;
+    height: 100%;
+    .close{
+         font-size:1.066667rem;
+        display: block;
+        height: 2.853333rem;
+        margin-bottom: 0.8rem;
+        color:#efefef;
+    }
+    .main{
+        flex:1;
+        p{
+            text-align:center;
+            font-size:0.4rem;
+            color:#43240C;
+             margin-bottom: 0.666667rem;
+        }
+        .input_box{
+              margin-bottom: 0.666667rem;
+             height: 0.933333rem;
+             position: relative;
+            border: 2px solid #F5F5F5;
+            border-radius:0.933333rem;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding-left:0.4rem;
+            font-size: 0.8rem;
+            .input_box_div{
+               display:flex;
+                line-height: 1.333333rem;
+                 height:  1.333333rem;
+                i{
+                    display: inline-block;
+                    width: 0.613333rem;
+                    height:0.8rem;
+                    margin-right: 0.746666rem;
+                    font-size: 0.666667rem;
+                    color:#FECD61;
+                }
+                input{
+                    position: absolute;
+                    left: 2rem;
+                    top: 0;
+                    display: inline-block;
+                    vertical-align: middle;
+                    width:5.333333rem;
+                    height: 0.933333rem;
+                    border: 0 none;
+                  
+                    font-size: 0.4rem;
+                }     
+            }
+        }
+        .register_btn{
+             height: 1.066667rem;
+            border-radius:70px;
+            background: #F5F5F5;
+            color:#9E9E9E;
+            font-size:0.4rem;
+            text-align:center;
+            line-height: 1.066666rem;
+        }
+    }
+    .footer{
+          height: 2.666667rem;
+        p{
+           text-align:center;
+            font-size:0.4rem;
+            color:#43240C;
+            padding-bottom:0.4rem;
+        }
+         .qq{
+            overflow:hidden;
+            display:flex;
+            justify-content:space-around;
+            padding: 0 2.773333rem;
+            li{
+                float: left;
+                // .qq_box{
+                //     display:flex;
+                //     justify-content:center;
+                //     align-items:center;
+                //     width: 1.066667rem;
+                //     height: 1.066667rem;
+                //     border:1px solid #B1A9A5;
+                //     border-radius:50%;
+                //     margin-bottom: 26px;
+                    i{
+                        display: block;
+                        font-size: 0.933333rem;
+                        color:#FECD61;
+                    }
+                    p{font-size:0.32rem;}
+                // }
+            }
+        }
+    }
+}
